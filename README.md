@@ -26,5 +26,5 @@ $ jenky [domain username api-token]
 This will output results every 5 seconds
 
 ```bash
-$ watch -n 5 'jenky | column -t'
+$ watch -n 5 './jenky | column -t'
 ```
