@@ -28,7 +28,8 @@
         process.exit(1);
     }
 
-    var oJenkins = jenkins_api.init('https://' + oConfig.username + ':' + oConfig.token + '@' + oConfig.domain);
+    var sUrl     = 'https://' + oConfig.username + ':' + oConfig.token + '@' + oConfig.domain;
+    var oJenkins = jenkins_api.init(sUrl);
     var aQueue   = [];
     var aRunning = [];
 
