@@ -1,0 +1,13 @@
+{
+    "author": "Mark Armendariz <src@enobrev.com> (http://enobrev.com/)",
+    "name": "node-jenky",
+    "main": "index",
+    "description": "Jenkins Watcher",
+    "version": "0.1.0",
+    "bin": {
+        "jenky": "./jenky"
+    },
+    "dependencies": {
+        "jenkins-api": "git@github.com:enobrev/node-jenkins-api.git"
+    }
+}
