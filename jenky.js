@@ -68,7 +68,7 @@
                 }
             }
 
-            if (aQueue.length && aRunning.length) {
+            if (aQueue.length || aRunning.length) {
                 for (var q in aQueue) {
                     console.log(['...', aQueue[q].name].join("\t"));  // , aQueue[q].url
                 }
